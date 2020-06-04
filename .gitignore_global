@@ -1,0 +1,15 @@
+
+# vscode
+.vscode/
+
+# python
+.env/
+.venv/
+env/
+venv/
+
+# pyinstaller
+build/
+dist/
+*.manifest
+*.spec
