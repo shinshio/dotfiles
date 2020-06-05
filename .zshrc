@@ -325,6 +325,7 @@ PROMPT="[%F{cyan}%n@%m%f] %B%F{yellow}>>%f%b %F{green}%~%f"$'\n'"%B%F{red}>%f%F{
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PIPENV_VENV_IN_PROJECT=true
+export PYTHONDONTWRITEBYTECODE=1
 eval "$(pyenv init -)"
 #alias pipallupgrade="pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U"
 alias jn="jupyter notebook"
